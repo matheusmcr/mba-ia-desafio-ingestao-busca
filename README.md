@@ -5,15 +5,15 @@ Este projeto realiza a ingestão de um arquivo PDF, armazena seus conteúdos em um
 
 ## Estrutura do Projeto
 ```
-??? docker-compose.yml
-??? requirements.txt      # Dependências
-??? .env                  # Template da variável OPENAI_API_KEY/GEMINI
-??? src/
-?   ??? ingest.py         # Script de ingestão do PDF
-?   ??? search.py         # Script de busca
-?   ??? chat.py           # CLI para interação com usuário
-??? document.pdf          # PDF para ingestão
-??? README.md             # Instruções de execução
+- docker-compose.yml
+- requirements.txt      # Dependências
+- .env                  # Template da variável OPENAI_API_KEY/GEMINI
+- src/
+-   - ingest.py         # Script de ingestão do PDF
+-   - search.py         # Script de busca
+-   - chat.py           # CLI para interação com usuário
+- document.pdf          # PDF para ingestão
+- README.md             # Instruções de execução
 ```
 
 ## Pré-requisitos
